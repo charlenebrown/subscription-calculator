@@ -67,6 +67,20 @@ select#months {
   margin: 1em 0;
 }
 
+
+.choose {
+  width: 80%;
+  padding: 1.5em 0;
+  margin: 2em 0;
+  border: 4px solid rgb(89, 241, 228);
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.choose h2 {
+  display: block;
+}
+
 .congrats {
   width: 80%;
   padding: 1.5em 0;
@@ -79,6 +93,11 @@ select#months {
 .congrats h2 {
   display: block;
 }
+
+.hide {
+  display: none;
+}
+
 
 footer {
   width: 100%;
@@ -100,6 +119,16 @@ footer a {
   .selections {
     justify-content: space-around;
   }
+
+ .choose {
+    font-size: 1.4em;
+  }
+
+  .choose h2 {
+    font-size: 1.2em;
+  }
+}
+
 
   .congrats {
     font-size: 1.4em;

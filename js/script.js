@@ -1,7 +1,10 @@
 // Your JS code here
 var subTypeElement = document.querySelector("#subscription");
 var subDurationElement = document.querySelector("#months");
+var pick = document.querySelector(".pick");
 var result = document.querySelector(".result");
+var chooseElement = document.querySelector (".choose");
+var congratsElement = document.querySelector (".congrats");
 var subType = "basic";
 var subDuration = 1;
 
@@ -28,4 +31,6 @@ var updateSubscriptionDiv = function () {
   }
   var total = subDuration * monthlyCost;
   result.innerText = `You picked our ${subDuration} month ${subType} plan for $${total}.`;
+  chooseElement.classList.add("hide");
+  congratsElement.classList.remove("hide");
 };
